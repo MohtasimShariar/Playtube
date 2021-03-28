@@ -48,6 +48,10 @@ $page='play_video';
       $query=mysqli_query($conn,"select * from play_video limit $page1,3");
        while ($row=mysqli_fetch_array($query)) {
          ?>
+
+
+
+         
          <tr>
            <td><?php echo $row['id']; ?></td>
             <td><?php echo $row['title']; ?></td>
